@@ -1,0 +1,46 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: engineering-productivity
+  description: Engineering Productivity
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: engineering.productivity@happymoney.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: backstage
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: pablo.delgado
+spec:
+  profile:
+    displayName: Pablo Delgado
+    email: pdelgado@happymoney.com
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  memberOf: [engineering-productivity]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: dan.ludwig
+spec:
+  profile:
+    displayName: Dan Ludwig
+    email: dludwig@happymoney.com
+    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
+  memberOf: [engineering-productivity]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: leena.venugopal
+spec:
+  profile:
+    displayName: Leena Venugopal
+    email: lvenugopal@happymoney.com
+    picture: https://avatars.dicebear.com/api/avataaars/nigel-manning@example.com.svg?background=%23fff
+  memberOf: [engineering-productivity]
