@@ -8,7 +8,7 @@ spec:
   profile:
     # Intentional no displayName for testing
     email: engineering.productivity@happymoney.com
-    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+    picture: https://media-exp1.licdn.com/dms/image/C560BAQFaG-EHh_AsOg/company-logo_200_200/0/1567559531126?e=2159024400&v=beta&t=y6I9pdO93weax-UD08-Ht073JkHyaSFqlWlbLkSGpvw
   parent: backstage
   children: []
 ---
@@ -20,7 +20,7 @@ spec:
   profile:
     displayName: Pablo Delgado
     email: pdelgado@happymoney.com
-    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+    picture: https://ca.slack-edge.com/T03TK4C4K-U3M0W9Y8J-acd4de0670fe-512
   memberOf: [engineering-productivity]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -31,7 +31,7 @@ spec:
   profile:
     displayName: Dan Ludwig
     email: dludwig@happymoney.com
-    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
+    picture: https://ca.slack-edge.com/T03TK4C4K-U01TNQECFQ9-79ffc949f7fd-512
   memberOf: [engineering-productivity]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -42,5 +42,5 @@ spec:
   profile:
     displayName: Leena Venugopal
     email: lvenugopal@happymoney.com
-    picture: https://avatars.dicebear.com/api/avataaars/nigel-manning@example.com.svg?background=%23fff
+    picture: https://ca.slack-edge.com/T03TK4C4K-U01P9SXJ6P3-3dc042676a26-512
   memberOf: [engineering-productivity]
